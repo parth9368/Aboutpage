@@ -4,18 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css">
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   <title>About Us</title>
 </head>
 
 <body>
-  <div class="lg:bg-[length:850px_650px] sm:w-full bg-no-repeat bg-right-top"
-    style="background-image: url(./images/Section-1-Liquid-Bg.png)">
-
-    <nav class="bg-gray-800 flex flex-1">
+  
+   <div class="Navbar flex justify-center">
+    <nav class="container bg-gray-800 flex flex-1">
       <div class="flex flex-1 sm:items-stretch sm:justify-start">
 
-        <div class="flex lg:justify-end sm:justify-center m-auto pr-12 w-1/3">
+        <div class="flex lg:justify-end sm:justify-center m-auto pr-16 w-1/3">
           <img class="h-12 w-auto" src="./images/Logo_sage0 1.png" alt="Your Company" />
         </div>
 
@@ -56,16 +56,20 @@
               </button>
             </div>
           </div>
-
         </div>
     </nav>
+  </div>
 
-    <section class="section-first text-gray-600 body-font bg-inherit">
+
+    <section class="section-first text-gray-600 body-font ">
+      <div class="flex justify-center">
+      <div class="container lg:bg-[length:850px_600px] sm:w-full bg-no-repeat bg-right-top"
+    style="background-image: url(./images/Section-1-Liquid-Bg.png) ">
       <div class="container flex flex-wrap px-16 py-6 mx-auto items-center">
         <div class="md:w-1/3 md:pr-12 md:py-8 md:border-b-0 mb-10 pl-8 md:mb-0 pb-10 border-b border-gray-200">
           <h1 class="sm:text-3xl text-2xl title-font mb-2 text-gray-900 font-bold">Pitchfork Kickstarter Taxidermy</h1>
-          <p class="leading-relaxed text-base">Locavore cardigan small batch roof party blue bottle blog meggings
-            sartorial jean shorts kickstarter migas sriracha church-key synth succulents.</p>
+          <p class="leading-relaxed text-xl">Locavore cardigan small batch roof party blue bottle blog meggings
+            sartorial jean shorts kickstarter </p>
           <div class="flex md:ml-auto md:mr-0 mx-auto my-4 items-center flex-shrink-0 space-x-4">
             <button
               class="bg-black inline-flex py-1 px-1 rounded-lg items-center hover:bg-gray-700 focus:outline-none text-white">
@@ -101,38 +105,32 @@
           <img src="./images/Section1.png" alt="">
         </div>
       </div>
-      <div class="flex flex-wrap m-2 pl-8">
-        <div class="lg:w-1/4">
-          <div class="h-full  px-8  overflow-hidden text-center relative border-r border-gray-200">
-
-            <h1 class="title-font sm:text-2xl text-xl font-medium text-sky-400"><span
-                style="font-size: xxx-large;">•</span> Raclette Blueberry </h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold</p>
-          </div>
-        </div>
-        <div class="lg:w-1/4">
-          <div class="h-full  px-8  overflow-hidden text-center relative  border-r border-gray-200">
-            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900">Ennui Snackwave </h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk.</p>
-          </div>
-        </div>
-        <div class="lg:w-1/4">
-          <div class="h-full  px-8  rounded-lg overflow-hidden text-center relative">
-            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900">Selvage Poke </h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold</p>
-          </div>
-        </div>
+      <div class="container flex flex-wrap px-20 py-auto mx-auto items-center">
+        <div class="md:w-1/4 border-r border-gray-200">
+          <h1 class="sm:text-2xl text-xl title-font mb-2 text-sky-400 font-semibold"><span
+            style="font-size: xxx-large;">•</span>Raclette Blueberry</h1>
+          <p class="leading-relaxed text-base">Photo booth fam kinfolk cold.</p>
       </div>
+      <div class="md:w-1/4 pl-5 border-r border-gray-200">
+        <h1 class="sm:text-2xl text-xl title-font mb-2 text-gray-900 font-semibold">Ennui Snackwave</h1>
+        <p class="leading-relaxed  text-base">Photo booth fam kinfolk cold.</p>
+    </div>
+    <div class="md:w-1/4 pl-5 border-b border-gray-200">
+      <h1 class="sm:text-2xl text-xl title-font mb-2 text-gray-900 font-semibold">Selvage Poke</h1>
+      <p class="leading-relaxed  text-base">Photo booth fam kinfolk cold.</p>
+  </div>
+</div>
+<div class="text-center mt-20">
+  <h1 class="inline-block text-4xl text-black font-bold">
+    Features</h1>
+  <hr class="w-12 h-2 mx-auto my-2 bg-gray-300 border-0 rounded-full md:my-2">
+</div>
+</div>
     </section>
+    <section class="section-second relative m-auto overflow-visible from-transparent">
+      
 
-    <section class="section-second relative mt-10 bg-inherit">
-      <div class="text-center">
-        <h1 class="inline-block text-4xl font-bold">
-          Features</h1>
-        <hr class="w-12 h-2 mx-auto my-2 bg-gray-300 border-0 rounded-full md:my-2">
-      </div>
-
-      <div class="section-second-a container flex flex-wrap py-auto px-12 mx-auto items-center">
+      <div class="section-second-a container  flex flex-wrap py-auto px-12 mx-auto items-center">
 
         <div class="flex flex-col md:w-1/2 md:pl-1 p-5 m-auto">
           <img src="./images/section-2-a.png" alt="">
@@ -143,17 +141,17 @@
           <h1 class="sm:text-2xl font-semibold text-xl title-font mb-2 text-gray-900 text-left"><span
               style="font-size: xxx-large; color: skyblue;">• </span>Pitchfork Kickstarter
             Taxidermy</h1>
-          <p class="leading-relaxed text-left">Locavore cardigan small batch roof party blue bottle blog meggings
+          <p class="leading-relaxed text-left text-lg">Locavore cardigan small batch roof party blue bottle blog meggings
             sartorial jean shorts kickstarter migas sriracha church-key synth succulents.</p>
         </div>
       </div>
 
-      <div class="section-second-b container flex flex-wrap py-auto px-12 mx-auto items-center">
+      <div class="section-second-b container  flex flex-wrap py-auto px-12 mx-auto items-center">
 
         <div class="md:w-1/2 md:pr-16 md:py-8 md:border-b-0 mb-10 pl-8 md:mb-0 pb-10 border-b border-gray-200">
           <h1 class="sm:text-2xl font-semibold text-xl title-font mb-2 text-gray-900 text-right">Pitchfork Kickstarter
             Taxidermy<span style="font-size: xxx-large; color: brown;"> •</span></h1>
-          <p class="leading-relaxed text-right">Locavore cardigan small batch roof party blue bottle blog meggings
+          <p class="leading-relaxed text-right text-lg">Locavore cardigan small batch roof party blue bottle blog meggings
             sartorial jean shorts kickstarter migas sriracha church-key synth succulents.</p>
         </div>
 
@@ -162,7 +160,7 @@
         </div>
       </div>
 
-      <div class="section-second-c container py-auto px-12 mx-auto items-center">
+      <div class="section-second-c container  py-auto px-12 mx-auto items-center">
 
         <div class="md:w-1/2 md:py-8 md:m-auto md:border-b-0 mb-10 pl-8 md:mb-0 pb-10 border-b border-gray-200">
           <h1 class="sm:text-2xl font-semibold text-xl title-font mb-2 text-gray-900 text-center">Pitchfork Kickstarter
@@ -180,25 +178,24 @@
 
     </section>
 
-    <section class="section-third  h-[1000px] w-full bg-[length:1275px_900px] bg-no-repeat bg-right-top"
+    <section class="section-third flex justify-center">
+
+      <div class="container py-32 w-full h-[1400px] bg-no-repeat bg-right-top"
       style="background-image: url(./images/section-3-bg.png)">
-
-      <div class="flex flex-wrap pt-52 justify-center bg-inherit">
-        <div class="md:w-1/6 px-5 text-center border-r border-gray-400">
-          <h1 class="title-font sm:text-2xl text-xl text-green-800 font-bold">+20M </h1>
-          <p class="leading-relaxed">Blogs</p>
-        </div>
-
-        <div class="md:w-1/6 px-5 text-center border-r border-gray-400">
-          <h1 class="title-font sm:text-2xl text-xl font-bold text-green-800 ">+48M </h1>
-          <p class="leading-relaxed">Forums</p>
-        </div>
-
-        <div class="md:w-1/6 px-5 rounded-lg text-center">
-          <h1 class="title-font sm:text-2xl text-xl font-bold text-green-800">+18K </h1>
-          <p class="leading-relaxed">Member's</p>
-        </div>
+      <div class=" flex flex-wrap pt-52 px-auto py-auto mx-auto justify-center items-center">
+        <div class="md:w-1/6  border-r border-gray-400 text-center">
+          <h1 class="sm:text-2xl text-xl title-font mb-2 text-green-800 font-bold">+20M</h1>
+          <p class="leading-relaxed text-base">Blogs</p>
       </div>
+      <div class="md:w-1/6 border-r border-gray-400 text-center">
+        <h1 class="sm:text-2xl text-xl title-font mb-2 text-green-800 font-bold">+48M</h1>
+        <p class="leading-relaxed  text-base">Forums</p>
+    </div>
+    <div class="md:w-1/6 text-center">
+      <h1 class="sm:text-2xl text-xl title-font mb-2 text-green-800 font-bold">+18K</h1>
+      <p class="leading-relaxed  text-base">Member's</p>
+  </div>
+</div>
 
       <div class="text-center mt-20">
         <h1 class="text-4xl font-bold">
@@ -206,23 +203,24 @@
         <hr class="w-12 h-2 mx-auto my-2 bg-gray-300 border-0 rounded-full md:my-2">
       </div>
 
-      <div class="flex flex-row justify-center bg-inherit">
-        <div class="w-1/6 text-center mx-20 my-5 ">
+      <div class="container flex flex-row justify-center  px-auto py-auto mx-auto text-center space-x-24">
+        <div class="w-1/6  my-10 ">
           <img src="./images//section-3-a.png" alt="">
           <p class="leading-relaxed mb-3">Linked In</p>
         </div>
-        <div class="w-1/6 text-center my-24">
+        <div class="w-1/6 my-36">
           <img src="./images/section-3-b.png" alt="">
           <p class="leading-relaxed mb-3">Instagram</p>
         </div>
-        <div class="w-1/6 text-center mx-20 my-5">
+        <div class="w-1/6 my-10">
           <img src="./images/section-3-c.png" alt="">
           <p class="leading-relaxed mb-3">Facebook</p>
         </div>
       </div>
+    </div>
     </section>
 
-    <section class=" section-fourth bg-inherit">
+    <section class="section-fourth bg-inherit">
 
       <div class="text-center mb-10">
         <h1 class="text-4xl font-bold">
@@ -234,11 +232,11 @@
         <img src="./images/section-4-a.png" alt="">
       </div>
 
-      <div class="flex flex-row ">
+      <div class="flex flex-row justify-center">
         <div class="mx-28">
           <img src="./images/section-4-b1.png" alt="">
         </div>
-        <div class="my-24 mx-9">
+        <div class="lg:my-24 xl:my-24 lg:mx-9 mx-10">
           <button class="bg-violet-700 hover:bg-violet-500 text-white py-2 px-4 rounded-full">
             EXPLORE ALL COMMUNITIES
           </button>
@@ -254,9 +252,9 @@
       </div>
     </section>
 
-    <section class="section-fifth  h-[1000px] bg-opacity-50 bg-[length:1275px_900px] bg-no-repeat bg-right-top"
+    <section class="section-fifth flex justify-center">
+      <div class="container w-full h-[1000px] bg-opacity-50  bg-no-repeat bg-right-top"
       style="background-image: url(./images/section-5-bg.png)">
-
       <div class="text-center pt-44">
         <h2 class="text-4xl font-bold">
           What are you waiting for? Download Now</h2>
@@ -325,17 +323,16 @@
       </div>
       <div class="h-[400px] w-full bg-opacity-55 bg-no-repeat bg-right-top"
         style="background-image: url(./images/footer-bg.png)">
-        <div class="flex flex-wrap items-center justify-center">
-          <div class="p-4 w-1/3">
-            <img src="./images//footer-company-logo.png" alt="">
-            <p class="text-white
-          ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam illum magni aut explicabo quaerat
+        <div class="flex flex-wrap pt-16 mb-16 justify-center">
+          <div class="pl-28 w-1/3">
+            <img class="h-8" src="./images//footer-company-logo.png" alt="">
+            <p class="text-white text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam illum magni aut explicabo quaerat
               blanditiis!</p>
           </div>
-          <div class="py-8 w-1/6 text-white">
+          <div class="w-1/6 text-white">
             <h3 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">BLOGS
             </h3>
-            <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+            <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5 text-sm">
               <a> Travel</a>
               <a>Technology</a>
               <a>Lifestyle</a>
@@ -344,16 +341,16 @@
             </nav>
           </div>
           <div class=" w-1/6 text-white">
-            <h3 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">Quick
+            <h3 class="font-medium title-font tracking-widest text-white mb-4 text-center sm:text-left text-sm">Quick
               Links</h3>
-            <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+            <nav class="flex flex-col sm:items-start sm:text-left text-center text-sm items-center -mb-1 space-y-2.5">
               <a>FAQ</a>
               <a>Terms & Conditions</a>
               <a>Support</a>
               <a>Privacy Policy</a>
             </nav>
           </div>
-          <div class=" w-1/3 text-white ">
+          <div class="container w-1/3 text-white pr-20">
             <h3 class="font-bold mb-2">Subscribe for Updates</h3>
             <div class="mb-3">
               <div class="relative mb-4 flex w-full flex-wrap items-stretch">
@@ -369,7 +366,7 @@
                 </button>
               </div>
             </div>
-            <div>
+            <div class="">
               <h3 class="font-bold mb-2">Follow On:</h3>
               <div class="flex flex-wrap ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 m-2 p-2 border-white border-2 rounded-md hover:bg-violet-700" fill="currentColor" viewBox="0 0 24 24">
@@ -401,9 +398,10 @@
           <h4 class="text-white ">Designed By Rushkar & Developed By Rushkar</h4>
         </div>
       </div>
+    </div>
 
     </section>
-  </div>
+  
 </body>
 
 </html>
